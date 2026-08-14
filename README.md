@@ -39,7 +39,10 @@ The app uses a simplified "Bank-Accurate" formula:
 
 ## Installation & Setup 🚀
 
-1. **Download**: Get the latest APK from the `app/build/outputs/apk/release/` folder.
+1. **Download**: Click the links below to download the ready-to-use APK files directly from this repository:
+   - [**Download Release APK (v1.1)**](https://github.com/dishi-github/Pocket-Money/raw/main/releases/PocketMoney-1.1-release.apk) - *Recommended for general use.*
+   - [**Download Debug APK (v1.1)**](https://github.com/dishi-github/Pocket-Money/raw/main/releases/PocketMoney-1.1-debug.apk) - *For testing and development.*
+
 2. **Initial Setup**:
    - Open the app and set an initial balance.
    - Go to **Profile** to set the child's name and photo.
