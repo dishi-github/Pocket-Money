@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.pocketmoney.app-mergeReleaseResources-18:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Dishi\\.gradle\\caches\\9.3.0\\transforms\\d53c5180c5d96ee9df69421bb8a2249c\\workspace\\transformed\\appcompat-1.6.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

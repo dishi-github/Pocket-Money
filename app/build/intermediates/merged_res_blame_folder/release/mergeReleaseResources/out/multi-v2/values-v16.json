@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.pocketmoney.app-mergeReleaseResources-18:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Dishi\\.gradle\\caches\\9.3.0\\transforms\\d53c5180c5d96ee9df69421bb8a2249c\\workspace\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Dishi\\.gradle\\caches\\9.3.0\\transforms\\4796bfcfcdb53d6dbd68841ceca08ea6\\workspace\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

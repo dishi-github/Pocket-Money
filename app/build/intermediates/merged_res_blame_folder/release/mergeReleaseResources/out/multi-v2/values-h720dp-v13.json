@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.pocketmoney.app-mergeReleaseResources-18:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Dishi\\.gradle\\caches\\9.3.0\\transforms\\d53c5180c5d96ee9df69421bb8a2249c\\workspace\\transformed\\appcompat-1.6.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

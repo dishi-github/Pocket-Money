@@ -1,0 +1,129 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pocketmoney"
+4    android:versionCode="2"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+11-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:2:5-81
+11-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:2:22-78
+12    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+12-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:3:5-79
+12-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:3:22-76
+13    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+13-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:4:5-74
+13-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:4:22-71
+14
+15    <permission
+15-->[androidx.core:core:1.9.0] C:\Users\Dishi\.gradle\caches\9.3.0\transforms\4796bfcfcdb53d6dbd68841ceca08ea6\workspace\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+16        android:name="com.pocketmoney.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.9.0] C:\Users\Dishi\.gradle\caches\9.3.0\transforms\4796bfcfcdb53d6dbd68841ceca08ea6\workspace\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.9.0] C:\Users\Dishi\.gradle\caches\9.3.0\transforms\4796bfcfcdb53d6dbd68841ceca08ea6\workspace\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.pocketmoney.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.9.0] C:\Users\Dishi\.gradle\caches\9.3.0\transforms\4796bfcfcdb53d6dbd68841ceca08ea6\workspace\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.9.0] C:\Users\Dishi\.gradle\caches\9.3.0\transforms\4796bfcfcdb53d6dbd68841ceca08ea6\workspace\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:6:5-41:19
+22        android:allowBackup="true"
+22-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:7:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.9.0] C:\Users\Dishi\.gradle\caches\9.3.0\transforms\4796bfcfcdb53d6dbd68841ceca08ea6\workspace\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:label="@string/app_name"
+26-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:8:9-41
+27        android:supportsRtl="true"
+27-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:9:9-35
+28        android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+28-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:10:9-77
+29        <activity
+29-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:11:9-18:20
+30            android:name="com.pocketmoney.LockActivity"
+30-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:12:13-41
+31            android:exported="true" >
+31-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:13:13-36
+32            <intent-filter>
+32-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:14:13-17:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:15:17-69
+33-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:15:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:16:17-77
+35-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:16:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:19:9-22:58
+39            android:name="com.pocketmoney.MainActivity"
+39-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:20:13-41
+40            android:exported="false"
+40-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:21:13-37
+41            android:windowSoftInputMode="adjustResize" />
+41-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:22:13-55
+42        <activity
+42-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:23:9-25:51
+43            android:name="com.pocketmoney.SummaryActivity"
+43-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:24:13-44
+44            android:label="Transaction Summary" />
+44-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:25:13-48
+45        <activity
+45-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:26:9-28:48
+46            android:name="com.pocketmoney.ProfileActivity"
+46-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:27:13-44
+47            android:label="Profile Settings" />
+47-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:28:13-45
+48        <activity
+48-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:29:9-31:43
+49            android:name="com.pocketmoney.WishlistActivity"
+49-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:30:13-45
+50            android:label="My Wishlist" />
+50-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:31:13-40
+51
+52        <receiver
+52-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:33:9-40:20
+53            android:name="com.pocketmoney.MonthlyCreditReceiver"
+53-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:34:13-50
+54            android:enabled="true"
+54-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:35:13-35
+55            android:exported="false" >
+55-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:36:13-37
+56            <intent-filter>
+56-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:37:13-39:29
+57                <action android:name="android.intent.action.BOOT_COMPLETED" />
+57-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:38:17-79
+57-->C:\Users\Dishi\Documents\Codex\Pocket-Money\app\src\main\AndroidManifest.xml:38:25-76
+58            </intent-filter>
+59        </receiver>
+60
+61        <provider
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Dishi\.gradle\caches\9.3.0\transforms\c8dce9e9fc26b8fd668dc7048ac95362\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+62            android:name="androidx.startup.InitializationProvider"
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Dishi\.gradle\caches\9.3.0\transforms\c8dce9e9fc26b8fd668dc7048ac95362\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+63            android:authorities="com.pocketmoney.androidx-startup"
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Dishi\.gradle\caches\9.3.0\transforms\c8dce9e9fc26b8fd668dc7048ac95362\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+64            android:exported="false" >
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Dishi\.gradle\caches\9.3.0\transforms\c8dce9e9fc26b8fd668dc7048ac95362\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+65            <meta-data
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Dishi\.gradle\caches\9.3.0\transforms\c8dce9e9fc26b8fd668dc7048ac95362\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+66                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Dishi\.gradle\caches\9.3.0\transforms\c8dce9e9fc26b8fd668dc7048ac95362\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+67                android:value="androidx.startup" />
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Dishi\.gradle\caches\9.3.0\transforms\c8dce9e9fc26b8fd668dc7048ac95362\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+68            <meta-data
+68-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Dishi\.gradle\caches\9.3.0\transforms\205dad0c0b682c04333576e9231624c2\workspace\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+69                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+69-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Dishi\.gradle\caches\9.3.0\transforms\205dad0c0b682c04333576e9231624c2\workspace\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+70                android:value="androidx.startup" />
+70-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Dishi\.gradle\caches\9.3.0\transforms\205dad0c0b682c04333576e9231624c2\workspace\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+71        </provider>
+72    </application>
+73
+74</manifest>
